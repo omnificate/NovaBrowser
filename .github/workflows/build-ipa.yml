@@ -102,18 +102,18 @@ jobs:
             // Top arc
             let arcY = center - globeRadius * 0.5
             context.move(to: CGPoint(x: center - globeRadius * 0.85, y: arcY))
-            context.addQuadCurveToPoint(
-                control: CGPoint(x: center, y: arcY - globeRadius * 0.3),
-                endPoint: CGPoint(x: center + globeRadius * 0.85, y: arcY)
+            context.addQuadCurve(
+                to: CGPoint(x: center + globeRadius * 0.85, y: arcY),
+                control: CGPoint(x: center, y: arcY - globeRadius * 0.3)
             )
             context.strokePath()
             
             // Bottom arc
             let arcY2 = center + globeRadius * 0.5
             context.move(to: CGPoint(x: center - globeRadius * 0.85, y: arcY2))
-            context.addQuadCurveToPoint(
-                control: CGPoint(x: center, y: arcY2 + globeRadius * 0.3),
-                endPoint: CGPoint(x: center + globeRadius * 0.85, y: arcY2)
+            context.addQuadCurve(
+                to: CGPoint(x: center + globeRadius * 0.85, y: arcY2),
+                control: CGPoint(x: center, y: arcY2 + globeRadius * 0.3)
             )
             context.strokePath()
             

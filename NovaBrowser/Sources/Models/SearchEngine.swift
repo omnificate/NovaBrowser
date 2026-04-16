@@ -59,7 +59,7 @@ enum SearchEngine: String, CaseIterable, Codable, Identifiable {
         case .bing: return "b.circle.fill"
         case .yahoo: return "y.circle.fill"
         case .startpage: return "lock.shield"
-        case .brave: return "lion.fill"
+        case .brave: return "shield.fill"
         case .ecosia: return "leaf.fill"
         case .qwant: return "q.circle.fill"
         }
