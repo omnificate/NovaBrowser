@@ -2,6 +2,7 @@
 // NovaBrowser - Comprehensive settings panel
 
 import SwiftUI
+import WebKit
 
 struct SettingsView: View {
     @EnvironmentObject var themeManager: ThemeManager
@@ -174,7 +175,14 @@ struct SettingsView: View {
                 Label("Force Dark Mode on Pages", systemImage: "moon.fill")
             }
 
-            ColorPicker("Accent Color", selection: $themeManager.accentColorBinding)
+            // Accent color selection
+            HStack {
+                Text("Accent Color")
+                Spacer()
+                Circle()
+                    .fill(themeManager.accentColor)
+                    .frame(width: 24, height: 24)
+            }
         }
     }
 
