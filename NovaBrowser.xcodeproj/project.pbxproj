@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA00001 /* NovaBrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00001; };
+		AAA00002 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00002; };
+		AAA00003 /* BrowserTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00003; };
+		AAA00004 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00004; };
+		AAA00005 /* HistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00005; };
+		AAA00006 /* DownloadItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00006; };
+		AAA00007 /* SearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00007; };
+		AAA00008 /* MainBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00008; };
+		AAA00009 /* WebViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00009; };
+		AAA00010 /* AddressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00010; };
+		AAA00011 /* NewTabPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00011; };
+		AAA00012 /* FindInPageBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00012; };
+		AAA00013 /* TabSwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00013; };
+		AAA00014 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00014; };
+		AAA00015 /* BookmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00015; };
+		AAA00016 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00016; };
+		AAA00017 /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00017; };
+		AAA00018 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00018; };
+		AAA00019 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00019; };
+		AAA00020 /* BookmarkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00020; };
+		AAA00021 /* HistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00021; };
+		AAA00022 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00022; };
+		AAA00023 /* AdBlockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00023; };
+		AAA00024 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00024; };
+		AAA00025 /* SearchSuggestionsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00025; };
+		AAA00026 /* URLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00026; };
+		AAA00027 /* UserAgentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00027; };
+		AAA00028 /* ReaderModeScripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00028; };
+		AAA00029 /* DarkModeScripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB00029; };
+		AAA00030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB00030; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BBB00001 /* NovaBrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaBrowserApp.swift; sourceTree = "<group>"; };
+		BBB00002 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		BBB00003 /* BrowserTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserTab.swift; sourceTree = "<group>"; };
+		BBB00004 /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		BBB00005 /* HistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItem.swift; sourceTree = "<group>"; };
+		BBB00006 /* DownloadItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadItem.swift; sourceTree = "<group>"; };
+		BBB00007 /* SearchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEngine.swift; sourceTree = "<group>"; };
+		BBB00008 /* MainBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBrowserView.swift; sourceTree = "<group>"; };
+		BBB00009 /* WebViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainer.swift; sourceTree = "<group>"; };
+		BBB00010 /* AddressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBar.swift; sourceTree = "<group>"; };
+		BBB00011 /* NewTabPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTabPageView.swift; sourceTree = "<group>"; };
+		BBB00012 /* FindInPageBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindInPageBar.swift; sourceTree = "<group>"; };
+		BBB00013 /* TabSwitcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSwitcherView.swift; sourceTree = "<group>"; };
+		BBB00014 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BBB00015 /* BookmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksView.swift; sourceTree = "<group>"; };
+		BBB00016 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		BBB00017 /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
+		BBB00018 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		BBB00019 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		BBB00020 /* BookmarkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkManager.swift; sourceTree = "<group>"; };
+		BBB00021 /* HistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryManager.swift; sourceTree = "<group>"; };
+		BBB00022 /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		BBB00023 /* AdBlockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBlockManager.swift; sourceTree = "<group>"; };
+		BBB00024 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		BBB00025 /* SearchSuggestionsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSuggestionsService.swift; sourceTree = "<group>"; };
+		BBB00026 /* URLHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLHelper.swift; sourceTree = "<group>"; };
+		BBB00027 /* UserAgentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentManager.swift; sourceTree = "<group>"; };
+		BBB00028 /* ReaderModeScripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderModeScripts.swift; sourceTree = "<group>"; };
+		BBB00029 /* DarkModeScripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeScripts.swift; sourceTree = "<group>"; };
+		BBB00030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCC00001 /* NovaBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovaBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD00001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD00002 /* NovaBrowser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NovaBrowser.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE00001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFF00001 = {
+			isa = PBXGroup;
+			children = (
+				FFF00002 /* NovaBrowser */,
+				FFF00099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF00002 /* NovaBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				DDD00001 /* Info.plist */,
+				DDD00002 /* NovaBrowser.entitlements */,
+				FFF00003 /* Sources */,
+				FFF00060 /* Resources */,
+			);
+			path = NovaBrowser;
+			sourceTree = "<group>";
+		};
+		FFF00003 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FFF00004 /* App */,
+				FFF00005 /* Models */,
+				FFF00006 /* Views */,
+				FFF00010 /* Managers */,
+				FFF00011 /* Services */,
+				FFF00012 /* Extensions */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FFF00004 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BBB00001 /* NovaBrowserApp.swift */,
+				BBB00002 /* AppState.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FFF00005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BBB00003 /* BrowserTab.swift */,
+				BBB00004 /* Bookmark.swift */,
+				BBB00005 /* HistoryItem.swift */,
+				BBB00006 /* DownloadItem.swift */,
+				BBB00007 /* SearchEngine.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FFF00006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FFF00007 /* Browser */,
+				FFF00008 /* Tabs */,
+				FFF00009 /* Settings */,
+				FFF00013 /* Bookmarks */,
+				FFF00014 /* History */,
+				FFF00015 /* Downloads */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FFF00007 /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				BBB00008 /* MainBrowserView.swift */,
+				BBB00009 /* WebViewContainer.swift */,
+				BBB00010 /* AddressBar.swift */,
+				BBB00011 /* NewTabPageView.swift */,
+				BBB00012 /* FindInPageBar.swift */,
+			);
+			path = Browser;
+			sourceTree = "<group>";
+		};
+		FFF00008 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				BBB00013 /* TabSwitcherView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		FFF00009 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BBB00014 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FFF00010 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BBB00018 /* SettingsManager.swift */,
+				BBB00019 /* ThemeManager.swift */,
+				BBB00020 /* BookmarkManager.swift */,
+				BBB00021 /* HistoryManager.swift */,
+				BBB00022 /* DownloadManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FFF00011 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BBB00023 /* AdBlockManager.swift */,
+				BBB00024 /* StorageManager.swift */,
+				BBB00025 /* SearchSuggestionsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FFF00012 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BBB00026 /* URLHelper.swift */,
+				BBB00027 /* UserAgentManager.swift */,
+				BBB00028 /* ReaderModeScripts.swift */,
+				BBB00029 /* DarkModeScripts.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FFF00013 /* Bookmarks */ = {
+			isa = PBXGroup;
+			children = (
+				BBB00015 /* BookmarksView.swift */,
+			);
+			path = Bookmarks;
+			sourceTree = "<group>";
+		};
+		FFF00014 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				BBB00016 /* HistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		FFF00015 /* Downloads */ = {
+			isa = PBXGroup;
+			children = (
+				BBB00017 /* DownloadsView.swift */,
+			);
+			path = Downloads;
+			sourceTree = "<group>";
+		};
+		FFF00060 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BBB00030 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FFF00099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCC00001 /* NovaBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		GGG00001 /* NovaBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = HHH00003;
+			buildPhases = (
+				GGG00002 /* Sources */,
+				EEE00001 /* Frameworks */,
+				GGG00003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NovaBrowser;
+			productName = NovaBrowser;
+			productReference = CCC00001;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		III00001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					GGG00001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = HHH00001;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFF00001;
+			productRefGroup = FFF00099;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				GGG00001 /* NovaBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		GGG00003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA00030 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		GGG00002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA00001 /* NovaBrowserApp.swift in Sources */,
+				AAA00002 /* AppState.swift in Sources */,
+				AAA00003 /* BrowserTab.swift in Sources */,
+				AAA00004 /* Bookmark.swift in Sources */,
+				AAA00005 /* HistoryItem.swift in Sources */,
+				AAA00006 /* DownloadItem.swift in Sources */,
+				AAA00007 /* SearchEngine.swift in Sources */,
+				AAA00008 /* MainBrowserView.swift in Sources */,
+				AAA00009 /* WebViewContainer.swift in Sources */,
+				AAA00010 /* AddressBar.swift in Sources */,
+				AAA00011 /* NewTabPageView.swift in Sources */,
+				AAA00012 /* FindInPageBar.swift in Sources */,
+				AAA00013 /* TabSwitcherView.swift in Sources */,
+				AAA00014 /* SettingsView.swift in Sources */,
+				AAA00015 /* BookmarksView.swift in Sources */,
+				AAA00016 /* HistoryView.swift in Sources */,
+				AAA00017 /* DownloadsView.swift in Sources */,
+				AAA00018 /* SettingsManager.swift in Sources */,
+				AAA00019 /* ThemeManager.swift in Sources */,
+				AAA00020 /* BookmarkManager.swift in Sources */,
+				AAA00021 /* HistoryManager.swift in Sources */,
+				AAA00022 /* DownloadManager.swift in Sources */,
+				AAA00023 /* AdBlockManager.swift in Sources */,
+				AAA00024 /* StorageManager.swift in Sources */,
+				AAA00025 /* SearchSuggestionsService.swift in Sources */,
+				AAA00026 /* URLHelper.swift in Sources */,
+				AAA00027 /* UserAgentManager.swift in Sources */,
+				AAA00028 /* ReaderModeScripts.swift in Sources */,
+				AAA00029 /* DarkModeScripts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		HHH00010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		HHH00011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		HHH00020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NovaBrowser/NovaBrowser.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NovaBrowser/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NovaBrowser;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.novabrowser.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		HHH00021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NovaBrowser/NovaBrowser.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NovaBrowser/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NovaBrowser;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.novabrowser.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		HHH00001 /* Build configuration list for PBXProject "NovaBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				HHH00010 /* Debug */,
+				HHH00011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		HHH00003 /* Build configuration list for PBXNativeTarget "NovaBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				HHH00020 /* Debug */,
+				HHH00021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = III00001 /* Project object */;
+}
